@@ -1,5 +1,6 @@
 body {background-color:black;
-		font-family:Helvetica,Arial,sans-serif;	
+		font-family:Arial;	
+		color:white
 		}
 		
 h1{color:grey;size:200%;font-family:verdana}
@@ -32,6 +33,7 @@ h1{color:grey;size:200%;font-family:verdana}
 	text-align:left;
 	margin-left:auto;
 	float:bottom;
+	color:black;
 }
 
 
