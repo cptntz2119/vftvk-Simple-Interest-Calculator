@@ -1,4 +1,49 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;
+		font-family:Helvetica,Arial,sans-serif;	
+		}
+		
+h1{color:grey;size:200%;font-family:verdana}
+
+#titleContainer{	
+	text-align:left;
+}
 
 
+
+#webcontainer{
+	margin-left:50px;	
+	background-color:white;		
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px;
+	width: 600px;
+	height: 500px;
+}
+
+#formContainer{
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	color:black;
+	height: 350px;	
+}
+
+#footerContainer{
+	text-align:left;
+	margin-left:auto;
+	float:bottom;
+}
+
+
+
+table,td{
+	border:0px solid black;
+	padding: 10px;
+	text-align: center-left;	
+}
+
+input_col{
+	padding: 10px;
+	width: 200px;
+	
+}
