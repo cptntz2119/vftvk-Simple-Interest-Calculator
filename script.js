@@ -11,7 +11,7 @@ function compute()
 	
 		 
 		
-		if(p <=0){
+		if(p <= 0){
 			 alert("Enter a positive number");
 			 location.reload();
 			}
@@ -26,3 +26,15 @@ function updateRate()
     document.getElementById("ratePrompt").innerText=rateval+"%";
 }
  
+function validatePrompt(){ //name validation
+		var vName = document.getElementById("principal").value;
+		
+		
+		if(vName > 0){
+			document.getElementById("principalPrompt").style.color = "green";
+			document.getElementById("principalPrompt").innerHTML = "<strong>Valid </strong>";
+			return true;
+			}
+		
+	
+	}
