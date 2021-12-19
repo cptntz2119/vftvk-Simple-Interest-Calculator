@@ -35,6 +35,6 @@ function validatePrompt(){ //name validation
 			document.getElementById("principalPrompt").innerHTML = "<strong>Valid </strong>";
 			return true;
 			}
-		
+		// No else condition, because the alert prompt did the job
 	
 	}
