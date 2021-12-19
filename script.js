@@ -26,7 +26,7 @@ function updateRate()
     document.getElementById("ratePrompt").innerText=rateval+"%";
 }
  
-function validatePrompt(){ //name validation
+function validatePrompt(){ //principal validation
 		var vName = document.getElementById("principal").value;
 		
 		
