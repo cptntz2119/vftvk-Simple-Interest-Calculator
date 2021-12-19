@@ -11,7 +11,7 @@ function compute()
 	
 		 
 		
-		if(p <= 0){
+		if(p <=0){
 			 alert("Enter a positive number");
 			 location.reload();
 			}
